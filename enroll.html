@@ -1,135 +1,83 @@
-.stick-left {
-     left: 0;
- }
- 
- .stick-right {
-     right: 0;
- }
- 
- .stick-top {
-     top: 0;
- }
- 
- .stick-bottom {
-     bottom: 0;
- }
- 
- ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     /*width: 44.98%;*/
-     overflow: hidden;
-     background-color: Orange;
-     font-family: 'Kanit', sans-serif;
- }
- 
- li {
-     display: inline-block;
-     float: none;
- }
- 
- li a {
-     display: block;
-     color: black;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     font-size: 20px;
- }
- 
- li a:hover {
-     background-color: #f7b559;
- }
- 
- h1 {
-     font-family: 'Kanit', sans-serif;
-     size: 28px;
- }
- 
- h2 {
-     font-family: 'Tahoma', sans-serif;
-     font-size: 12px;
-     text-align: center;
-     color: white;
- }
- 
- footer {
-     position: fixed;
-     left: 0px;
-     bottom: 0px;
-     height: 30px;
-     width: 100%;
-     background: darkorange;
-     color: black;
-     text-align: center;
-     font-family: 'Kanit', sans-serif;
-     size: 30px;
- }
- 
- table {
-     border-collapse: collapse;
-     width: 100%;
- }
- 
- th,
- td {
-     text-align: left;
-     padding: 8px;
- }
- 
- tr:nth-child(even) {
-     background-color: #f2f2f2
- }
- 
- th {
-     background-color: darkorange;
-     color: black;
- }
- 
- div.img {
-     border: 1px solid #ccc;
- }
- 
- div.img:hover {
-     border: 1px solid #777;
- }
- 
- div.img img {
-     width: 100%;
-     height: auto;
- }
- 
- div.desc {
-     padding: 15px;
-     text-align: center;
- }
- 
- * {
-     box-sizing: border-box;
- }
- 
- .responsive {
-     padding: 0 6px;
-     float: left;
-     width: 24.99999%;
- }
- 
- @media only screen and (max-width: 700px) {
-     .responsive {
-         width: 49.99999%;
-         margin: 6px 0;
-     }
- }
- 
- @media only screen and (max-width: 500px) {
-     .responsive {
-         width: 100%;
-     }
- }
- 
- .clearfix:after {
-     content: "";
-     display: table;
-     clear: both;
- }
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enroll</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body bgcolor="#ffe7c6">
+    <center>
+        <ul>
+            <li><a href="http://angsila.informatics.buu.ac.th/~58660088/887371/lab02/lab02.html">Home</a></li>
+            <li><a href="http://angsila.informatics.buu.ac.th/~58660088/887371/lab01/aboutme.html">About Me</a></li>
+            <li><a href="http://angsila.informatics.buu.ac.th/~58660088/887371/lab02/gallery.html">Gallery</a></li>
+            <li><a href="http://angsila.informatics.buu.ac.th/~58660088/887371/lab02/enroll.html">Enroll</a></li>
+            <li><a href="http://angsila.informatics.buu.ac.th/~58660088/887371/lab02/timetable.html">Timetable</a></li>
+        </ul>
+    </center>
+    <h1>
+        <center>My Enroll</center>
+    </h1>
+
+    <table>
+        <tr>
+            <th>รหัสวิชา</th>
+            <th>ชื่อวิชา</th>
+            <th>หน่วยกิต</th>
+            <th>กลุ่มเรียน</th>
+            <th>อ.ผู้สอน</th>
+        </tr>
+        <tr>
+            <td>228202</td>
+            <td>Academic Article and Research Writing<br>การเขียนบทความวิชาการและงานวิจัย</td>
+            <td>3</td>
+            <td>3401</td>
+            <td>ผู้ช่วยศาสตราจารย์ฉลวย มงคล</td>
+        </tr>
+        <tr>
+            <td>88510459</td>
+            <td>Programming Fundamental<br>หลักการโปรแกรม</td>
+            <td>3</td>
+            <td>10</td>
+            <td>อาจารย์ ดร.คนึงนิจ กุโบลา</td>
+        </tr>
+        <tr>
+            <td>885201</td>
+            <td>creative Activities<br>กิจกรรมสร้างสรรค์</td>
+            <td>2</td>
+            <td>2</td>
+            <td>อาจารย์ปวันรัตน์ แตงจุ้ย</td>
+        </tr>
+        <tr>
+            <td>886210</td>
+            <td>Data Structures and Algorithms<br>โครงสร้างข้อมูลและอัลกอริทึม</td>
+            <td>3</td>
+            <td>3405</td>
+            <td>อาจารย์ปานเพชร ร่มไทร</td>
+        </tr>
+        <tr>
+            <td>887260</td>
+            <td>Human and Computer Interaction<br>ปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์</td>
+            <td>3</td>
+            <td>1</td>
+            <td>อาจารย์วีระ เกษตรสิน</td>
+        </tr>
+        <tr>
+            <td>887371</td>
+            <td>Web Programming<br>การเขียนโปรแกรมบนเว็บ</td>
+            <td>3</td>
+            <td>3401</td>
+            <td>อาจารย์วิทวัส พันธุมจินดา</td>
+        </tr>
+    </table>
+
+
+
+    <footer>
+        <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+        <font size="+1"> รายวิชา 887371 Web Programming | 2016 by นางสาวรัชฏาภรณ์ วารีภพ | คณะวิทยาการสารสนเทศ มหาวิทยาลัยบูรพา </font>
+    </footer>
+</body>
+
+</html>
